@@ -1,13 +1,12 @@
 import React from "react";
-import Content from "./includes/content/Content";
+import Contentlogin from "./includes/content/Contentlogin";
 import Footer from "./includes/footer/Footer";
 import "../css/loginstyle.css";
 
-export default function SignupPage() {
+export default function loginPage() {
   return (
     <>
-    
-      <Content/>
+      <Contentlogin/>
       <Footer/>
     </>)
 }
