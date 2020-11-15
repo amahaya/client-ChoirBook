@@ -6,12 +6,14 @@ import "../css/style.css";
 import "../css/animate.css";
 import Menu from "./includes/content/Menu";
 import Footer from "./includes/footer/Footer";
+import ContentUser from "./includes/content/ContentUser";
 
 
 export default function userPage() {
   return (
     <>
       <Menu/>
+      <ContentUser/>
       <Footer/>
     </>)
 }
